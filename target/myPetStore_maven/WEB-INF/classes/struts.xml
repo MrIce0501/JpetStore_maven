@@ -59,7 +59,6 @@
         </action>
         <action name="viewCategory" class="web.CatalogAction" method="viewCategory">
             <result name="success">/WEB-INF/jsp/catalog/Category.jsp</result>
-            <!--<result name="VIEW_CATEGORY">/WEB-INF/jsp/catalog/Category.jsp</result>-->
         </action>
         <action name="viewProduct" class="web.CatalogAction" method="viewProduct">
             <result name="success">/WEB-INF/jsp/catalog/Product.jsp</result>

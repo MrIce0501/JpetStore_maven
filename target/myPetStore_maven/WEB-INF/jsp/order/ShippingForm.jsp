@@ -49,4 +49,4 @@
 
 </stripes:form></div>
 
-<%@ include file="../common/IncludeBottom.jsp"%>
+<%@ include file="../common/IncludeButtom.jsp"%>

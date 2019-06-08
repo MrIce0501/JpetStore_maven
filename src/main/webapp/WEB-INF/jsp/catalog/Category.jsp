@@ -33,20 +33,6 @@
                 <td>${product.name}</td>
             </tr>
         </c:forEach>
-        <s:iterator var="product" value="${requestScope.productList}">
-            <tr>
-                <td>
-                        <%--<stripes:link--%>
-                        <%--beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"--%>
-                        <%--event="viewProduct">--%>
-                        <%--<stripes:param name="productId" value="${product.productId}" />--%>
-                        <%--${product.productId}--%>
-                        <%--</stripes:link>--%>
-                    <a href="catalog/viewProduct?productId=${product.productId}">${product.productId}</a>
-                </td>
-                <td>${product.name}</td>
-            </tr>
-        </s:iterator>
     </table>
 </div>
 
