@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@include file="../common/IncludeTop.jsp"%>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <div id="Welcome">
     <div id="WelcomeContent">
         Welcome to MyPetStore!
@@ -16,7 +17,7 @@
     <div id="Sidebar">
         <div id="SidebarContent">
             <a href="viewCategory?categoryId=FISH"><img src="images/fish_icon.gif" /></a>
-            <br/> Saltwater, Freshwater <br/>
+            <br/><s:text name="fish.Saltwater"/>Freshwater <br/>
             <a href="viewCategory?categoryId=DOGS"><img src="images/dogs_icon.gif" /></a>
             <br /> Various Breeds <br />
             <a href="viewCategory?categoryId=CATS"><img src="images/cats_icon.gif" /></a>

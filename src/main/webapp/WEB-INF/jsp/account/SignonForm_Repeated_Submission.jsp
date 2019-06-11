@@ -10,7 +10,7 @@
 	    Password:<input type="text" name="account.password" value="j2ee"/><br/>
 		Verification Code:<input type="text" name="VerificationCode"/><s:fielderror value="error1"></s:fielderror><br/>
 		<img src="verifyCode?" id="Verify" border="0" style="cursor:hand;"/>
-		<a href="javascript:changeImg();">Vague? Change it</a><font color="red">${sessionScope.imageMess}</font>
+		<a href="javascript:changeImg();">Vague? Change it</a><font color="red"><s:property value="#session.imageMess"/></font>
     </p>
 		<p>Please do not submit again</p>
 		<input type="submit" name="signon" value="Login"/>
