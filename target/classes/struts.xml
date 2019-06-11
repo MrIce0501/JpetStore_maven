@@ -77,4 +77,6 @@
         </action>
 
     </package>
+    <constant name="struts.custom.i18n.resources" value="lang.message"/>
+    <constant name="struts.i18n.encoding" value="UTF-8" />
 </struts>

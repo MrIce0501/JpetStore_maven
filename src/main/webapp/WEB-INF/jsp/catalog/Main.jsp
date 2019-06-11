@@ -9,7 +9,7 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <div id="Welcome">
     <div id="WelcomeContent">
-        Welcome to MyPetStore!
+        <s:text name="welcome"/>
     </div>
 </div>
 
@@ -17,15 +17,15 @@
     <div id="Sidebar">
         <div id="SidebarContent">
             <a href="viewCategory?categoryId=FISH"><img src="images/fish_icon.gif" /></a>
-            <br/><s:text name="fish.Saltwater"/>Freshwater <br/>
+            <br/> <s:text name="fish.Saltwater"/>, <s:text name="fish.Freshwater"/> <br/>
             <a href="viewCategory?categoryId=DOGS"><img src="images/dogs_icon.gif" /></a>
-            <br /> Various Breeds <br />
+            <br /> <s:text name="various_breeds"/> <br />
             <a href="viewCategory?categoryId=CATS"><img src="images/cats_icon.gif" /></a>
-            <br /> Various Breeds, Exotic Varieties <br />
+            <br /> <s:text name="various_breeds"/>, <s:text name="exotic_varieties"/> <br />
             <a href="viewCategory?categoryId=REPTILES"><img src="images/reptiles_icon.gif" /></a>
-            <br /> Lizards, Turtles, Snakes <br />
+            <br /> <s:text name="reptile.lizards"/>, <s:text name="reptile.turtles"/>, <s:text name="reptile.snakes"/> <br />
             <a href="viewCategory?categoryId=BIRDS"><img src="images/birds_icon.gif" /></a>
-            <br /> Exotic Varieties
+            <br /> <s:text name="exotic_varieties"/>
         </div>
     </div>
 

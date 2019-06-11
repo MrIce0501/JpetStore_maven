@@ -20,7 +20,7 @@
     <meta name="generator"
           content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
     <title>JPetStore Demo</title>
-    <meta content="text/html; charset=windows-1252"
+    <meta content="text/html; charset=UTF-8"
           http-equiv="Content-Type" />
     <meta http-equiv="Cache-Control" content="max-age=0" />
     <meta http-equiv="Cache-Control" content="no-cache" />
@@ -42,8 +42,7 @@
     <div id="Menu">
         <div id="MenuContent">
             <a href="viewCart">
-                <img align="middle" name="img_cart"
-                                    src="/images/cart.gif" />
+                <img align="middle" name="img_cart" src="/images/cart.gif" />
             </a>
             <img align="middle" src="/images/separator.gif" />
             <s:if test="%{#session.account==null}">
